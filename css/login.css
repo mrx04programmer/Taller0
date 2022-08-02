@@ -20,10 +20,8 @@
 }
 
 body{
-    /*background-image: url('../img/index/bg-features.png');*/
-    background-color: #474b5e;
-    background-size: 150% 150vh;
-    background-position: 80% 10%;
+    background-image: url('../img/login/bg-login.png');
+    background-size: 100% 100vh;
 }
 
 #container{
@@ -47,7 +45,12 @@ body{
 
 }
 
-#logo{
+#logo img{
+    width: 70%;
+    background-image: url('../img/login/vector-login.svg');
+}
+
+#img{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +74,15 @@ input[type="submit"]{
     color: var(--blanco);
     background-color: var(--negro2);
     outline: none;
-    border: none;
+    border: 0px;
     font-size: 1em;
     padding: 3px;
+}
+
+.regtext{
+    color: var(--blanco)
+}
+
+.regtext a{
+    color: var(--negro2)
 }
