@@ -28,38 +28,83 @@ h1,h2, h3,h4,h5 {
 }   
 
 nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--negro2);
-    font-family:'Marcellus',serif;
-    font-size: 1.3em;
-    padding: 1rem;
-}
-
-.item{
-    padding: 1rem;
-}
-.menu a{
-    color:var(--blanco);
-    text-decoration: none;
+    display:flex;
+    flex-direction: column;
     
 }
 
-.navbutton{
-    background-color: var(--azuloscuro);
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    font-family:'Marcellus',serif;
+    font-size: 1.3em;
+    
+}
+nav a:hover{
+    background-color: #0B3860;
+    width: 100%;
+    text-align: center;
+    
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--negro2);
+    padding: 1rem;
+    
+}
+.logo img{
+    width: 40%;
+    max-width: 200px;
+}
+.logo i{
+    color: var(--blanco);
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(1, 10, 52, 0.838);
+}
+
+.item {
+    color: var(--blanco);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+
+
+.menu i {
+    margin-right: 0.5rem;
+}
+
+.menu a {
+    color: var(--blanco);
+    font-family: 'Marcellus', serif;
+    
+}
+
+.menu-hr {
+    width: 90%;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: var(--blanco);
+}
+
+.navbutton {
     border-radius: 5px;
     border: none;
     padding: 0.5em;
     color: var(--blanco);
-}
-
-.menu i{
-    margin-right: 0.5rem;
-}
-
-.logo img{
-    height: 3em;
+    border: none;
+    background-color: transparent;
+    font-family: 'Marcellus', serif;
+    font-size: 0.8em;
+    cursor: pointer;
 }
 
 /* Text Area*/
@@ -288,6 +333,21 @@ footer > p > i{
     margin-bottom: 2em;
 }
 @media screen and (min-width: 768px){
+    #features{
+        width: 123%;
+    }
+    .maxcontainer{
+        width: 120%;
+    }
+
+    #nuestros h2{
+        width: 125%; 
+    }
+    
+    footer{
+        width: 110%;
+    }
+    
     
 }
 @media screen and (min-width: 1024px){
