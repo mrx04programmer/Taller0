@@ -287,3 +287,32 @@ footer > p > i{
 #right_f p{
     margin-bottom: 2em;
 }
+@media screen and (min-width: 768px){
+    
+}
+@media screen and (min-width: 1024px){
+    nav{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        background-color: var(--negro2);
+        text-align: center;
+    }
+    .menu{
+        background-color: var(--negro2);
+        display: block;
+    }
+    .menu-hr{
+        display: none;
+    }
+    .logo i{
+        display: none
+    }
+    .navbutton{
+        background-color: var(--azuloscuro);
+    }
+    .logo img{
+        width: 100%;
+    }
+}
