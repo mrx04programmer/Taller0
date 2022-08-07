@@ -26,7 +26,7 @@ body{
 
 #container{
     background-color: var(--azuloscuro);
-    border-radius: 1px;
+    border-radius: 2px;
     padding: 3em;
     width: 25%;
     font-family: 'Roboto', sans-serif;
@@ -46,8 +46,9 @@ body{
 }
 
 #logo img{
-    width: 70%;
+    width: 63%;
     background-image: url('../img/login/vector-login.svg');
+    opacity: 90%;
 }
 
 #img{
@@ -85,4 +86,58 @@ input[type="submit"]{
 
 .regtext a{
     color: var(--negro2)
+}
+
+
+.svg{
+    position: relative;
+    right: 3em;
+    bottom: 3em;
+}
+@media screen and (min-width: 768px){
+    #container{
+        width: 30%;
+        height: auto;
+    }
+    
+    .svg{
+        width: 142%;
+        height: 10px;
+        margin-bottom:20%;
+    }
+    
+    #logo img{
+        position: absolute;
+        top: 11%;
+        width: 20%;
+        left: 37%;
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    #container{
+        width: 30%;
+        height: auto;
+    }
+    .svg{
+        width: 131%;
+        height: 10px;
+        margin-bottom: 20%;
+    }
+    #logo img{
+        position: absolute;
+        width: 15%;
+        top: 14%;
+        left: 37%;
+    }
+    
+}
+
+@media screen and (min-width: 1600px){
+    .svg{
+        
+        width: 124%;
+    }
 }

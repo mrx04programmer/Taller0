@@ -146,18 +146,18 @@ nav{
     width: 100%;
     padding-top: 38%;
     background-image: url(../img/index/slide1.jpg);
-    background-size: 100% 135vh;
+    background-size: 110% 90vh;
     align-items: center;
     
 }
 
 #slide h2{
-    background-color: rgba(0, 0, 0, 0.356);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 1px;
     margin: 3px;
     color: var(--fondo);
     padding: 20px;
-    width: 450px;
+    width: 440px;
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
     justify-content: center;
@@ -189,4 +189,101 @@ nav{
 #dir{
     text-decoration: underline;
     text-decoration-color: #157A8A;
+}
+
+#nuestros h2{
+    position: relative;
+    z-index:0; /* Control de capas o posición */
+    top: 50px;
+    font-family:'Marcellus',serif;
+    background-image: url('../img/opinion/vector-comentarios.png') ;
+    color: var(--blanco);
+    justify-items: center;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-size: 2.5em;
+}
+
+#nuestros img{
+    border-radius: 50%;
+}
+
+.maxcontainer{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15%
+    /*flex-basis: 20%;*/
+}
+
+.mincontainer{
+    background-image: url('../img/opinion/Vector-opinion.png');
+    background-repeat: no-repeat;
+    background-size: 100% 13vh;
+    /*background-color: var(--degradado);*/
+    background-color: #337AB7;
+    border-radius: 2px;
+    justify-items: space-around;
+    color: var(--blanco);
+    margin: 10px;
+    padding: 1em;
+    opacity: 97%;
+}
+
+.mincontainer > .up{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15%;
+   
+}
+
+.mincontainer > .up > h3{
+    margin: 15px;
+
+} 
+
+footer{
+    background-color: var(--negro2);
+    color: var(--gris);
+    font-family:'Marcellus',serif;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5em;
+    padding-right: 4em;
+    justify-content: space-around;
+}
+
+footer > p > i{
+    color: var(--gris)
+}
+
+#left_f{
+    width: 30%;
+}
+
+#icons{
+    display: flex;
+    flex-direction: row;
+}
+
+#icons > i{
+    margin: 20px;
+}
+
+#center_f{
+    width: auto;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#center_f > p{
+    margin-bottom: 1em;
+}
+
+#right_f{
+    width: 20%;
+}
+#right_f p{
+    margin-bottom: 2em;
 }
