@@ -207,9 +207,11 @@ button {
         display: none;
     }
     
-    button{
+    .button{
         margin-left: 17%;
-        padding: 20px;
+        padding: 5px;
+        border-radius: 20px;
+        
     }
 }
 
@@ -306,7 +308,11 @@ button {
 
     .button{
         width: 30%;
-        height: 45px;
+        height: auto;
+        padding: 5px;
+        border-radius: 20px;
+        position: relative;
+        bottom: 5%;
     }
 
     

@@ -125,8 +125,16 @@ img{
     align-items: center;
     justify-content: center;
 }
-@media screen and (min-width: 768px){
-    
+@media screen and (min-width: 710px){
+    body{
+        background-size: 120% 160vh;
+        display:flex;
+        flex-direction: column;
+    }
+    .form-1{
+        display: block;
+        padding: 10px;
+    }
 }
 @media screen and (min-width:1024px){
 
